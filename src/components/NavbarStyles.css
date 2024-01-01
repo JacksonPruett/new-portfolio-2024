@@ -1,0 +1,64 @@
+.header {
+    display: flex;
+    /* this puts space between the menu items and the branding on the left side */
+    justify-content: space-between;
+    /* this aligns items on the center with the branding */
+    align-items: center;
+    /* this adds padding all the way around the nav bar */
+    padding: 1rem;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-menu li {
+    padding: 0 1rem;
+}
+
+.nav-menu li a{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.hamburger {
+    display: none;
+}
+/* media queries make the website responsive to all devices by adjusting sizing, padding, and other elements of css for devices of varying sizes */
+@media screen and (max-width: 1040px) {
+    .nav-menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* viewport is the part of a document that is currently visible in its window. It is generally the same as the browser window, excluding the UI and menu bar. The viewport is fundamental to web development because its dimensions control how page elements appear. The size of the viewport is determined by the size of the user's device. */
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.9);
+        /* position absolute defines the position of an element from the top and left margins of a web page */
+        position: absolute;
+        /* top and left defines the positions of the element based on its top and left edges */
+        top: 0;
+        left: -100%;
+        /* z-index defomes the order of overlapping HTML elements */
+        z-index: -3;
+        /* transition movies the menu items from left to right and back again when the toggler is clicked */
+        transition: 0.5s;
+    }
+
+    .nav-menu.active {
+      left: 0;  
+    }
+
+    .nav-menu li {
+        padding: 1rem 0;
+    }
+
+    .nav-menu li a {
+        font-size: 2rem;
+    }
+
+    .hamburger {
+        /* display initial sets a CSS property to its default value  */
+        display: initial;
+    }
+}
