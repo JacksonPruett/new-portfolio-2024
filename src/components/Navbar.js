@@ -11,8 +11,20 @@ const Navbar = () => {
     const [barsToggle, setBarsToggle] = useState(false)
     const handleClick = () => setBarsToggle(!barsToggle)
 
+    const [color, setColor] = useState(false)
+    const changeColor = () => {
+        // window.scrollY: This represents the current vertical scroll position of the window. It gives the number of pixels the document is currently scrolled vertically from the top. setColor will trigger when the vertical scroll position is 100px or more.
+        if(window.scrollY >= 1){
+            setColor(true)
+        } else {
+            setColor(false)
+        }
+    }
+
+    window.addEventListener("scroll", changeColor)
+
   return (
-    <div className='header'>
+    <div className={color ?  'header header-bg' : 'header'}>
         <Link to='/'>
             {/* this is my branding on the left side */}
             <h1>JPruett</h1>
