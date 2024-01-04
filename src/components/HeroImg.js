@@ -1,6 +1,6 @@
 import "./HeroImgStyles.css"
 import React from 'react'
-import IntroImg from "../assets/ian-dooley-DJ7bWa-Gwks-unsplash.jpg"
+import IntroImg from "../assets/altumcode-XMFZqrGyV-Q-unsplash.jpg"
 import { Link } from "react-router-dom"
 
 const HeroImg = () => {
