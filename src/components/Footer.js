@@ -40,18 +40,24 @@ const Footer = () => {
             <h4>About Me</h4>
             <p>My name is Jackson Pruett and I am a front-end web developer from North Carolina. I enjoy discussing new projects and working through design challenges.</p>
             <div className="social">
-              <FaGithub
+              <a href="https://github.com/JacksonPruett" target="_blank" rel="noopener">
+              <FaGithub href='https://github.com/JacksonPruett'
                 size={30}
                 style={{ color: "#fff", marginRight: "1rem" }}
               />
+              </a>
+              <a href="https://www.linkedin.com/in/jacksoncpruett/" target="_blank" rel="noopener">
               <FaLinkedin
                 size={30}
                 style={{ color: "#fff", marginRight: "1rem" }}
               />
+              </a>
+              <a href="https://medium.com/@jacksonc.pruett" target="_blank" rel="noopener">
               <FaMedium
                 size={30}
                 style={{ color: "#fff", marginRight: "1rem" }}
               />
+              </a>
             </div>
         </div>
       </div>
