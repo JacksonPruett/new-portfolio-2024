@@ -1,9 +1,18 @@
 import React from 'react'
 
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+import HeroImg2 from '../components/HeroImg2'
+import Work from '../components/Work'
+
 const Projects = () => {
-  return (
-    <div>Projects</div>
-  )
+  return <div>
+    <Navbar />
+    {/* these text variables are rendering inside the HeroImg2 component  */}
+    <HeroImg2 heading="PROJECTS." text="Some of my most recent works" />
+    <Work />
+    <Footer />
+  </div>
 }
 
 export default Projects
