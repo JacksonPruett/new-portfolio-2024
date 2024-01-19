@@ -1,9 +1,11 @@
 import "./Footerstyles.css";
-
+import resume from "../assets/Jackson_Pruett_resume.pdf"
 import React from "react";
 
 import { FaFacebook, FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa6";
+import { IoDocumentTextOutline } from "react-icons/io5";
+
 
 const Footer = () => {
   return (
@@ -17,14 +19,16 @@ const Footer = () => {
               <p>North Carolina</p>
             </div>
           </div>
-          <div className="phone">
+          <div className="resume">
+              <a href={resume} target="_blank" rel="noopener">
             <h4>
-              <FaPhone
+              <IoDocumentTextOutline
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              828-228-9725
+              Résumé
             </h4>
+            </a>
           </div>
           <div className="email">
             <h4>

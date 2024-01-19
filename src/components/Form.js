@@ -13,8 +13,8 @@ const Form = () => {
             <label>Subject</label>
             <input type='text'></input>
             <label>Message</label>
-            <textarea rows="6" placeholder='Type your message here' />
-            <button className='btn'>Submit</button>
+            <textarea rows="6" placeholder='Email server under construction. Please use email listed at the bottom of the page for contact purposes. Thank you for your understanding.' />
+            {/* <button className='btn'>Submit</button> */}
         </form>
     </div>
   )

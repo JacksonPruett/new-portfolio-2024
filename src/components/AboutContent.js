@@ -7,27 +7,35 @@ const AboutContent = () => {
   return (
     <div className="about">
       <div className="left">
-        <h1>WHo am i?</h1>
+        <h1>Hello there,</h1>
         <p>
-          I'm a react front-end developer. I create responsive secure websites
-          for my clients.
+          Hello, I'm Jackson—a former Marine with six years of service, now
+          transitioning into full-stack web development through LEARN Academy.
+          My military background involved establishing radio connections and
+          maintaining communication equipment for diverse units across the US.
         </p>
+        <br/>
+        <p>
+          In my civilian life, I honed fabrication welding skills, contributing
+          to projects like crafting exhaust systems for NASCAR and building
+          tanks for respirator manufacturing during the pandemic. Since leaving
+          the Marine Corps in 2023, I've been immersing myself in full-stack web
+          development at LEARN Academy, exploring technologies like Javascript,
+          React, Ruby, and Ruby on Rails. Eager to showcase evolving
+          capabilities, I welcome collaborations and opportunities. 
+          </p>
+          <br/>
+          <p>
+          Feel free to
+          reach out for questions, ideas, or just to connect. Let's explore how
+          our paths may intersect.
+          </p>
+          <br/>
         <Link to="/contact">
           <button className="btn">Contact</button>
         </Link>
       </div>
-
-      <div className="right">
-        <div className="img-container">
-          <div className="img-stack top">
-            <img src={React1} className="img" alt="true" />
-            <div className="img-stack bottom">
-              <img src={React1} className="img" alt="true" />
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
   );
 };
 
