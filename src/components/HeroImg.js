@@ -11,7 +11,7 @@ const HeroImg = () => {
         </div>
         <div className="content">
             <p>Hi, I'm Jackson.</p>
-            <h1>Front-End Web Developer</h1>
+            <h1>Full-Stack Web Developer</h1>
             <div>
                 <Link to="/projects" className="btn">Projects</Link>
                 <Link to="/contact" className="btn btn-light">Contact</Link>
