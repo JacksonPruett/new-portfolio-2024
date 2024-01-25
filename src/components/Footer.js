@@ -41,8 +41,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="right">
-            <h4>About Me</h4>
-            <p>My name is Jackson Pruett and I am a front-end web developer from North Carolina. I enjoy discussing new projects and working through design challenges.</p>
+            <h4>Social Links</h4>
             <div className="social">
               <a href="https://github.com/JacksonPruett" target="_blank" rel="noopener">
               <FaGithub href='https://github.com/JacksonPruett'
