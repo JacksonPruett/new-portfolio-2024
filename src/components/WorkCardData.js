@@ -5,14 +5,14 @@ const ProjectCardData = [
     {
         imgsrc: auto1,
         title: "AutoForge",
-        text: "AutoForge is a collaborative space that transforms individual automotive pursuits into a valuable resource, providing guidance and inspiration to fellow enthusiasts. CRUD App Built using React and Ruby on Rails.",
+        text: "Autoforge is a full CRUD app that made use of React hooks, state variables, a combo of traditional CSS and Reactstrap styling, and reactstrap prebuilt components. There is also over 90% test coverage on both the frontend and backend using Jest and RSpec.",
         view: "https://auto-forge.onrender.com/",
         source: "https://github.com/JavascriptJedis",
     },
     {
         imgsrc: alien1,
         title: "Alien Invasion",
-        text: "A simple treasure hunt style game built in React.",
+        text: "A simple treasure hunt style game built in React using hooks, state variables, and CSS styling.",
         view: "https://alien-invasion-a-treasure-hunt-game.onrender.com",
         source: "https://github.com/JacksonPruett/TreasureHunt",
     },

@@ -11,6 +11,8 @@ const HeroImg = () => {
         </div>
         <div className="content">
             <p>Hi, I'm Jackson.</p>
+            <br/>
+            <p><strong style={{color: "#61DBFB"}}>React</strong> / <strong style={{color: "#cc0000"}}>Rails</strong></p>
             <h1>Full-Stack Web Developer</h1>
             <div>
                 <Link to="/projects" className="btn">Projects</Link>
