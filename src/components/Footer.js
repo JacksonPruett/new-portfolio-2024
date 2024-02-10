@@ -1,5 +1,5 @@
 import "./Footerstyles.css";
-import resume from "../assets/Jackson_Pruett_resume.pdf"
+import resume from "../assets/JacksonPruett_resume-02_09_2024.pdf"
 import React from "react";
 
 import { FaFacebook, FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone } from "react-icons/fa";
